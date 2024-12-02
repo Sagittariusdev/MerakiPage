@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff7e6;
+    color: #333;
+}
+
+header {
+    background-color: #ff7a00;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.8em;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#inicio, #quienes-somos, #servicios, #hagamos-caos {
+    margin-top: 2rem;
+}
+
+h2 {
+    color: #ff7a00;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    width: 80%;
+    max-width: 400px;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff7a00;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #e06800;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+#responseMessage {
+    margin-top: 1rem;
+    color: #ff7a00;
+    font-weight: bold;
+}
